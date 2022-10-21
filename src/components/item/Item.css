@@ -1,0 +1,61 @@
+.container-item{
+    /* border: 1px solid purple; */
+    height: 150px;
+}
+
+.cards {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  width: 200px;
+  height: 150px;
+  background-color: rgb(249, 218, 180);
+  border-radius:20px ;
+}
+
+.list{
+   /* border: 2px solid red; */
+  
+  
+   
+  
+   display: flex; 
+   flex-direction: column;
+   justify-content: center;
+   align-items:flex-start;
+background-color: rgb(249, 218, 180);
+border-radius:20px ;  
+width: 200px;
+  height: 150px ;
+  
+    box-shadow: 2px 2px 10px 2px rgb(0, 0, 0, 0.6);
+
+
+}
+
+
+.cards:hover{
+    box-shadow: 2px 2px 10px 2px rgb(0, 0, 0, 0.2);
+}
+
+.cards:hover .card-logo{
+      min-width: 80px;
+  max-height: 90px;
+  transition: all 0.5s;
+}
+
+.card-logo {
+  min-width: 60px;
+  max-height: 70px;
+}
+
+.card-title{
+    padding: 0.5rem;
+    font-size: 20px;
+}
+
+.text{
+    font-size: 15px;
+  /* border: 2px solid red; */
+   
+}

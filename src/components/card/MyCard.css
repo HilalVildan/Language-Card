@@ -1,0 +1,20 @@
+.container-card {
+  width: 500px;
+  height: 780px;
+  background-color: orange;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  color: white;
+  padding: 1rem;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  gap: 1rem;
+  justify-content: space-evenly;
+}

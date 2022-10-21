@@ -4,8 +4,8 @@ import "./MyCard.css"
 
 const MyCard = () => {
   return (
-    <div className="container">
-      <h1>Languages</h1>
+    <div className="container container-card">
+      <h1 className="text-center">Languages</h1>
       <div className="card-container">
         {language.map((a, index) => {
           return <Item data={a} key={index} />
